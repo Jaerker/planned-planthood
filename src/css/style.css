@@ -1,11 +1,38 @@
 body {
-    margin:0;
+    margin: 0;
 
 }
 
-.wrapper{
-    display:flex;
+.wrapper {
+    display: flex;
     flex-direction: row;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+
+/*first-info section wrapper. Flexbox med 2 items. 1) med stora bilden och 2) med text, H2, P och button*/
+body div section.first-info {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+body div section article.first-info-svgContainer {
+    height: 377px;
+    width: 377px;
+    border-radius: 50%;
+    background-color: #0A846E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+body div section article.first-info-image {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
