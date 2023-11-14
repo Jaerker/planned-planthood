@@ -1,7 +1,12 @@
 body {
-    margin:0;
+    margin:0 auto;
     max-width: 1000px;
-    background-color: grey;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction:column; 
+    max-width: 1000px;
 }
 
 nav {
@@ -21,4 +26,47 @@ nav {
 
 .navbar__h3 {
     color: #055647;
+}
+
+
+.hero {
+    display: grid;
+    grid-template-areas: 
+        'a b'
+        'a c';
+    height: 540px;
+}
+.hero section:nth-child(2){
+    
+    background: #9E6D52;
+}
+.hero section:nth-child(3){
+    
+    background: #0A846E;
+}
+.hero__hand {
+    grid-area: a;
+    background-image: url('../img/hero-hand.png');
+    width: 500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero__hand--logo {
+    margin-top:60px;
+    width: 190px;
+    height: auto;
+}
+
+.hero__sub-section {
+    height: 270px;
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero--icon{
+    width:176px;
+    height:195px;
 }
