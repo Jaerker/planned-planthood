@@ -5,14 +5,8 @@ body {
 .hero-footer {
     height: 644px;
     width: 1000px;
-   
-   
-    
-}
-
-.footerbackground {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
+    background: url(https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
