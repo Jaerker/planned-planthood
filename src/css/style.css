@@ -5,7 +5,7 @@ body {
 
 .wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@ body {
 
 /*first-info section wrapper. Flexbox med 2 items. 1) med stora bilden och 2) med text, H2, P och button*/
 body div section.first-info {
-    background-color: grey;
+    padding: 1rem;
     display: flex;
     justify-content: space-around;
 }
@@ -41,3 +41,43 @@ body div section article.first-info-image {
     height: 100%;
     object-fit: cover;
 }
+
+.first-info-article {
+    padding-left: 1rem;
+    width: 467px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;;
+    background-color: #0A846E;
+    width: 179px;
+    height: 63px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 10px #838080;
+    border: none;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #1E1E1E;
+
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1E1E1E;
+    line-height: 22px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:ital,wght@1,700&family=Fira+Sans:wght@700&family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
