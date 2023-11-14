@@ -9,3 +9,30 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+.hero{
+    display:grid;
+    grid-template-areas: 'a b'
+                         'a c';
+    height:540px;
+}
+
+.hero__hand{
+    grid-area: a;
+    background-image: url('../img/hero-hand.png');
+    width: 500px;
+}
+.hero__hand--image{
+    margin:
+}
+.hero__seedling{
+    grid-area:b;
+    background: #9E6D52;
+    height:270px;
+    width: 500px;
+}
+.hero__spade{
+    grid-area:c;
+    background: #0A846E;
+    height:270px;
+    width: 500px;
+}
