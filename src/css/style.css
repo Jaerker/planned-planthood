@@ -29,6 +29,11 @@ body div section article.first-info-svgContainer {
     overflow: hidden;
 }
 
+body section article img {
+    width: 195px;
+    height: 195px;
+}
+
 body div section article.first-info-image {
     display: flex;
     align-self: center;
