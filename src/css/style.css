@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:ital,wght@1,700&family=Fira+Sans:wght@700&family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
+
 body {
     margin: 0 auto;
     max-width: 1000px;
@@ -30,7 +33,20 @@ nav {
     color: #055647;
 }
 
+.header h1{
+    color: #0A846E;
 
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+/** Hero section **/
 .hero {
     display: grid;
     grid-template-areas: 
@@ -39,20 +55,21 @@ nav {
     height: 540px;
 }
 .hero section:nth-child(2){
-    
     background: #9E6D52;
 }
 .hero section:nth-child(3){
-    
     background: #0A846E;
 }
 .hero__hand {
-    grid-area: a;
     background-image: url('../img/hero-hand.png');
-    width: 500px;
+
+    grid-area: a;
+
     display:flex;
+    width: 500px;
     align-items:center;
     justify-content:center;
+
 }
 
 .hero__hand--logo {
@@ -62,15 +79,16 @@ nav {
 }
 
 .hero__sub-section {
-    height: 270px;
-    width: 500px;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 270px;
 }
 .hero--icon{
-    width:176px;
-    height:195px;
+    filter: drop-shadow(0px 4px 4px 0px #00000040);
+
+
 }
 
 
@@ -158,4 +176,129 @@ p {
     line-height: 22px
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:ital,wght@1,700&family=Fira+Sans:wght@700&family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
+/** Planerade plantor **/
+.plants-section{
+    margin: 0 auto;
+    width: 932px;
+
+    font-family: 'Lato', sans-serif;
+}
+.plants-section hr{
+    width: 303px;
+    margin-top: 66px;
+    margin-bottom: 26px;
+
+    border: none;
+    border-top: 3px solid #055647;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+.plants-section h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.plants-section__container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+}
+.plants-section__card{
+    display:grid;
+    grid-template-rows: 296px 111px;
+    margin:0 auto;
+    width:294px;
+    height:407px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.plants-section__card--header{
+    height:296px;
+    position:relative;
+    overflow:hidden;
+}
+.plats-section__card--header-image{
+    position:absolute;
+}
+.plats-section__card--header-icon{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+
+    margin:auto;
+
+
+}
+.plants-section__card-content{
+    display:grid;
+    grid-template: 50% 50% / 50% 50%;
+    margin: 13px 12px;
+
+}
+.plants-section__card-content--header{
+    margin:0;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    
+}
+.plants-section__card-content--date{
+    margin:0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+}
+.plants-section__card-content--paragraph{
+    margin-top:7px;   
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.plants-section__button{
+    background: #B93857;
+    color:#ffffff;
+
+    display:block;
+    margin:0 0 auto auto;
+    width:97px;
+    height:30px;
+    border-radius:9px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align:center;
+    text-decoration: none;
+
+}
+.plants-section__more-button{
+    background: #0A846E;
+    color:#ffffff;
+  
+    display:block;
+    margin:60px auto;
+    width:157px;
+    height:63px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius:8px;
+  
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 63px;
+    text-decoration: none;
+}
+
+

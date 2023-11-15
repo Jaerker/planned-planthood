@@ -1,69 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planned Planted</title>
-    <link rel="stylesheet" href="src/css/style.css">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planned Planthood</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
     <div class="wrapper">
 
-        <section class="hero">
-            <section class="hero__hand">
-                <img src="./src/img/hero-logo-1.svg" alt="Logga" class="hero__hand--logo">
+      <section class="hero">
+        <section class="hero__hand">
+          <img
+            src="./src/img/hero-logo-1.svg"
+            alt="Logga"
+            class="hero__hand--logo"
+          />
+        </section>
+        <section class="hero__sub-section">
+          <img src="./src/img/seedling.png" alt="Seedling" class="hero--icon" />
+        </section>
+        <section class="hero__sub-section">
+          <img src="./src/img/spade.png" alt="Spade" class="hero--icon" />
+        </section>
+      </section>
+
+      <!-- Albin offrar sig för Navbaren -->
+      <nav class="navbar">
+        <h3 class="navbar__h3">PLANER</h3>
+        <h3 class="navbar__h3">HISTORIK</h3>
+        <h3 class="navbar__h3">TIPS</h3>
+        <h3 class="navbar__h3">LOGGA IN</h3>
+      </nav>
+
+      <header class="header">
+        <h1>PLANNED PLANTHOOD</h1>
+      </header>
+      <!-- Ally -->
+      <section class="section__first-info">
+        <article class="first-info-svgContainer">
+            <img class="first-info-image" src="./src/img/seedpackage.svg">
+        </article>
+        <article class="first-info-article">
+            <h2>Säsong att så</h2>
+            <p>Våren är äntligen här i kollektivet!
+                Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus
+                amet eu elit.</p>
+            <button class="button__såtips">SÅ-TIPS</button>
+        </article>
+    </section>
+
+      <section class="plants-section">
+        <hr>
+        <h3>Våra planerade planteringar:</h3>
+
+        <section class="plants-section__container">
+          
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-1.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
             </section>
-            <section class="hero__sub-section">
-                <img src="./src/img/seedling.svg" alt="Seedling" class="hero--icon">
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">Gurka</h4>
+              <h5 class="plants-section__card-content--date">15 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Rico Coolio</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
             </section>
-                <section class="hero__sub-section">
-                <img src="./src/img/spade.svg" alt="Spade" class="hero--icon">
+          </section>
 
-                </section>
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-2.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
+            </section>
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">Tomat</h4>
+              <h5 class="plants-section__card-content--date">1 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Jocke</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
+            </section>
+          </section>
+
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-3.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
+            </section>
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">Tomat</h4>
+              <h5 class="plants-section__card-content--date">1 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Majvor och P-Å</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
+            </section>
+          </section>
+
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-4.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
+            </section>
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">Sockerärtor</h4>
+              <h5 class="plants-section__card-content--date">15 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Frippe</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
+            </section>
+          </section>
+
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-5.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
+            </section>
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">majrova</h4>
+              <h5 class="plants-section__card-content--date">1 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Emma på 4an</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
+            </section>
+          </section>
+
+          <section class="plants-section__card">  
+            <section class="plants-section__card--header">
+              <img src="./src/img/planned-plants-images/image-6.png" alt="" class="plats-section__card--header-image">
+              <img src="./src/img/planned-plants-images/pot-icon.svg" alt="en ikon i form av en planta" class="plats-section__card--header-icon">
+            </section>
+            <section class="plants-section__card-content">
+              <h4 class="plants-section__card-content--header">Squash</h4>
+              <h5 class="plants-section__card-content--date">15 april 2024</h5>
+              <p class="plants-section__card-content--paragraph">Perra J</p>
+              <a href="#" class="plants-section__button">TA BORT</a>
+            </section>
+          </section>
+
         </section>
 
+        <a class="plants-section__more-button" href="#">Visa fler</a>
+      </section>
 
-<!-- Albin offrar sig för Navbaren -->
-        <nav class="navbar">
-                <h3 class="navbar__h3">PLANER</h3>
-                <h3 class="navbar__h3">HISTORIK</h3>
-                <h3 class="navbar__h3">TIPS</h3>
-                <h3 class="navbar__h3">LOGGA IN</h3>
-        </nav>
+<section class="section__first-info">
+  <article class="first-info-article">
+      <h2>Våra tidigare odlingar</h2>
+      <p>Våren är äntligen här i kollektivet! 
+          Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus amet eu elit.</p>
+      <button class="button__planterade">Planterade Plantor</button>
+  </article>
+  <article class="first-info-svgContainer">
+      <img class="first-info-image" src="./src/img/seedlinginpot.svg">
+  </article>
+</section>
 
-        <header class="header"></header>
-        <!-- Ally -->
-        <section class="section__first-info">
-            <article class="first-info-svgContainer">
-                <img class="first-info-image" src="./src/img/seedpackage.svg">
-            </article>
-            <article class="first-info-article">
-                <h2>Säsong att så</h2>
-                <p>Våren är äntligen här i kollektivet!
-                    Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus
-                    amet eu elit.</p>
-                <button class="button__såtips">SÅ-TIPS</button>
-            </article>
-        </section>
-        <section class="planned-plants"></section>
-
-        <section class="section__first-info">
-            <article class="first-info-article">
-                <h2>Våra tidigare odlingar</h2>
-                <p>Våren är äntligen här i kollektivet! 
-                    Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus amet eu elit.</p>
-                <button class="button__planterade">Planterade Plantor</button>
-            </article>
-            <article class="first-info-svgContainer">
-                <img class="first-info-image" src="./src/img/seedlinginpot.svg">
-            </article>
-        </section>
-
-        <footer class="hero-footer"></footer> <!-- ISAK -->
-
+      <footer class="hero-footer"></footer>
+      <!-- ISAK -->
     </div>
-</body>
-
+  </body>
 </html>
