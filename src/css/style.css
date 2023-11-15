@@ -16,7 +16,7 @@ nav {
     height: 60px;
     display: flex;
     justify-content: space-around;
-    font-family: Maven Pro;
+    font-family: 'Maven Pro', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
