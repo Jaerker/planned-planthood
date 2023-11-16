@@ -302,3 +302,114 @@ p {
 }
 
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 590px;
+    width: 500px;
+    background-color: black;
+    opacity: 0.79;
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+.hero-footer {
+    display: flex;
+    height: 590px;
+    width: 1000px;
+    background: url(https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.footertitle {
+    color: #FFFFFF;
+    font-family: "Maven Pro", Arial;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75.2px;
+    margin: auto;
+    align-self: center;
+    
+    
+    
+    
+}
+
+
+.contacttext {
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Maven Pro", Arial;
+    font-weight: 400;
+    font-size: 20px;
+    
+
+}
+
+
+.contactlayout {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    position: absolute;
+    width: 500px;
+
+}
+
+
+
+.mailcontact {
+    display: flex;
+    margin-right: 30px;
+    align-self: flex-end;
+    align-items: center;
+    
+
+}
+
+
+.phonecontact {
+    display: flex;
+    margin-left: 30px;
+    align-self: flex-start;
+    align-items: center;
+
+}
+
+
+.footerlogowrapper {
+    display: flex;
+    margin: auto;
+
+}
+
+.backtotop {
+    display: flex;
+    background-color:#FFFFFF;
+    width: 1000px;
+    height: 70px;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.4);
+    align-items: center;
+}
+
+.backtotoptext {
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Open Sans", Arial;
+
+}
